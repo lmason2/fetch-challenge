@@ -1,4 +1,4 @@
-from handlers.utils import (determine_points, get_points_from_retailer, get_points_from_total, 
+from app.handlers.utils import (determine_points, get_points_from_retailer, get_points_from_total, 
                             get_points_from_items, get_points_from_purchase_date, get_points_from_purchase_time)
 
 import unittest

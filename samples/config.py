@@ -1,4 +1,4 @@
 
 
-base_url = 'http://localhost:8000'
+base_url = 'http://0.0.0.0:80'
 receipt_id = 'random'

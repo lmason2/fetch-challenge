@@ -1,4 +1,4 @@
-from handlers.utils import validate_receipt
+from app.handlers.utils import validate_receipt
 
 import unittest
 

@@ -32,7 +32,7 @@ def item_full_match(item):
 
 def validate_receipt(receipt):
     try:
-        logger.info('validating receipt')
+        logger.info('Validating receipt')
         retailer = receipt.get('retailer', None)
         purchase_date = receipt.get('purchaseDate', None)
         purchase_time = receipt.get('purchaseTime', None)
@@ -120,7 +120,7 @@ def get_points_from_total(total):
         logger.info(f'Points calculated: {points}')
         return points
     except Exception as error:
-        logger.error(f'Erro determining points from total: {error}')
+        logger.error(f'Error determining points from total: {error}')
         return 0
 
 
