@@ -8,7 +8,7 @@ class TestOverallPointDetermination(unittest.TestCase):
     def test_empty_receipt(self):
         receipt = {}
         points = determine_points(receipt)
-        assert 10 == points
+        assert 0 == points
 
     def test_example_receipts(self):
         receipt = {
