@@ -2,7 +2,7 @@ import requests
 from samples.config import base_url
 
 receipt = {
-  "retailer": ";",
+  "retailer": "target",
   "purchaseDate": "2022-01-01",
   "purchaseTime": "13:01",
   "items": [
